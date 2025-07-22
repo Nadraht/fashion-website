@@ -151,6 +151,7 @@ marquee {
   color: #111;
 }
 
+
 .featured-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -169,7 +170,6 @@ marquee {
 .product-image {
   position: relative;
   width: 100%;
-  height: 425px; 
   overflow: hidden;
 }
 
@@ -205,19 +205,25 @@ marquee {
   font-weight: bold;
   font-size: 0.95em;
   text-align: center;
-  color: #333;
+  text-decoration: none;
 }
+
+
 
 .featured a {
   display: inline-block;
   margin-top: 30px;
-  font-weight: bold;
-  color: #e91e63;
   text-decoration: none;
 }
 
+.product-preview a {
+  text-decoration: none;
+  color: #333;
+}
 .featured a:hover {
   text-decoration: underline;
+  color: #e91e63;
+  
 }
 
 /* TESTIMONIALS */

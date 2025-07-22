@@ -1,14 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+  
+  // const myVariable = {a:1,b:2}
+  // console.log(myVariable.b)
+
+
+
   // Contact form validation
   const contactForm = document.getElementById("contactForm");
   if (contactForm) {
     contactForm.addEventListener("submit", function (e) {
       e.preventDefault();
 
-      const name = document.getElementById("name").value.trim();
+      const name = document.getElementById("name").value;
       const phone = document.getElementById("number").value.trim();
-      const email = document.getElementById("email").value.trim();
-      const message = document.getElementById("message").value.trim();
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
 
       const phonePattern = /^(\+?[0-9]{7,15})$/;
       const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -53,25 +60,29 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
+
   // Set event date and time (YYYY-MM-DDTHH:MM:SS)
   const eventDate = new Date("2025-08-02T14:00:00").getTime();
 
   const timer = document.getElementById("timer");
+  if(timer ===null){
+    return
+  }
 
   const countdown = setInterval(function () {
     const now = new Date().getTime();
-    const distance = eventDate - now;
+    const duration = eventDate - now;
 
-    if (distance < 0) {
+    if (duration < 0) {
       clearInterval(countdown);
       timer.textContent = "🎉 The event is happening now!";
       return;
     }
 
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    const days = Math.floor(duration / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((duration % (1000 * 60)) / 1000);
 
     timer.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
   }, 1000);
@@ -103,6 +114,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+   if (closeBtn === null) {
+    return
+  }
+  
   closeBtn.addEventListener("click", () => {
     lightbox.style.display = "none";
   });
