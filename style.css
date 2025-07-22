@@ -372,7 +372,7 @@ footer p:last-of-type {
   }
 
   nav {
-    margin-top: 25px;
+    margin-top: 10px;
     margin-right: 0;
     display: flex;
     flex-wrap: wrap;
@@ -384,14 +384,12 @@ footer p:last-of-type {
 
   nav a {
     font-size: 0.8em;
-    background-color: white;
-
   }
 
   marquee {
     font-size: 0.95em;
     text-align: center;
-    margin-top: 110px;
+    margin-top: 90px;
     padding: 10px 5px;
   }
 
