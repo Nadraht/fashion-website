@@ -380,12 +380,12 @@ footer p:last-of-type {
     gap: 10px;
     padding-left: 10px;
     overflow-x: auto;
-   background-color: yellow;
+    background-color: yellow;
   }
 
   nav a {
     font-size: 0.8em;
-    padding: 4px 6px;
+    padding: 2px 4px;
   }
 
   marquee {
