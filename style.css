@@ -376,7 +376,7 @@ footer p:last-of-type {
     margin-right: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    text-align: center;
     gap: 2px;
     padding-left: 10px;
     overflow-x: auto;
