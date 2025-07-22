@@ -378,6 +378,11 @@ footer p:last-of-type {
     padding-left: 10px;
   }
 
+  nav a {
+    font-size: 0.8em;
+    padding: 5px;
+  }
+
   marquee {
     font-size: 0.95em;
     text-align: center;
