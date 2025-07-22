@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Customed</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Customed</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="products.html">Products</a>
+            <a href="article.html">Blogs</a>
+        </nav>
+
+    </header>
+
+    <marquee>Have questions or want to place an order? Send us a message today!</marquee>
+
+    <main class="contact">
+        <div class="contact-text">
+            <h2>Contact Us</h2>
+            <p>For inquiries, bookings, or custom orders, feel free to reach out through the form or contact info below.</p>
+            <p>Email: customed@gmail.com</p>
+            <p>Phone: +234 913 073 2850 </p>
+            <p>WhatsApp: +234 703 092 8816</p>
+            
+            <form id="contactForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="number">Phone Number:</label>
+                <input type="tel" id="number" name="number" pattern="^\+?[0-9]{7,15}$" title="Enter phone number" required><br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Your Message / Booking Request:</label>
+                <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+
+            <p>Want to book a seat for our next event? <a href="event.html">View upcoming events</a>.</p>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <p><a href="../index.html">Home</a></p>
+            <p><a href="about.html">About</a></p>
+            <p><a href="contact.html">Contact</a></p>
+            <p><a href="products.html">Products</a></p>
+            <p><a href="article.html">Blogs</a></p>
+            <p><a href="event.html">Events</a></p>
+            <p><a href="faq.html">FAQs</a></p>
+            <p><a href="testimonial.html">Testimonials</a></p>
+            <p><a href="trustees.html">Trustees</a></p>
+        </nav>
+        <p>&copy; 2025 Customed. All rights reserved.</p> 
+    </footer>
+    <button id="backToTopBtn" title="Go to top">↑</button>
+    <script src="../script.js"></script>
+</body>
+</html>
