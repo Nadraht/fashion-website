@@ -122,21 +122,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const hoverImg = product.querySelector(".hover-img");
     });
 });
-// alert("hello")
-    // Hide hover image initially on mobile
-    // hoverImg.style.display = "none";
-
-    // Toggle on click (for mobile)
-    // product.addEventListener("mousehover", function () {
-    //   if (defaultImg.style.display !== "none") {
-        
-    //     defaultImg.style.display = "none";
-    //     hoverImg.style.display = "block";
-    // //   } else {
-    //     defaultImg.style.display = "block";
-    //     hoverImg.style.display = "none";
-    //   }
-    // });
 
 
 document.addEventListener("scroll", () => {
