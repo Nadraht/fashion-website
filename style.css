@@ -378,7 +378,8 @@ footer p:last-of-type {
     flex-wrap: wrap;
     gap: 10px;
     padding-left: 10px;
-    overflow-x: hidden;
+    overflow-x: auto;
+    align-self: flex-start;
   }
 
   nav a {
@@ -451,6 +452,8 @@ footer p:last-of-type {
     text-align: center;
   }
 }
+
+
 
 
 /* ABOUT PAGE STYLE */

@@ -147,4 +147,3 @@ document.addEventListener("scroll", () => {
     }
   });
 });
-
