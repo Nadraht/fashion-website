@@ -376,15 +376,16 @@ footer p:last-of-type {
     margin-right: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 10px;
     padding-left: 10px;
     overflow-x: auto;
-    align-self: flex-start;
+   background-color: yellow;
   }
 
   nav a {
     font-size: 0.8em;
-    padding: 2px;
+    padding: 4px 6px;
   }
 
   marquee {
