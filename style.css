@@ -1266,13 +1266,6 @@ main h2 {
   margin-bottom: 10px;
 }
 
-main > p {
-  text-align: center;
-  font-size: 1.1em;
-  color: #444;
-  margin-bottom: 40px;
-}
-
 /* Trustees Grid */
 .trustee {
   background-color: rgba(255, 255, 255, 0.95);

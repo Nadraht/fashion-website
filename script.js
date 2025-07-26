@@ -1,11 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-
   
-  // const myVariable = {a:1,b:2}
-  // console.log(myVariable.b)
-
-
-
   // Contact form validation
   const contactForm = document.getElementById("contactForm");
   if (contactForm) {
@@ -136,14 +130,6 @@ document.addEventListener("DOMContentLoaded", function () {
       lightbox.style.display = "none";
     }
   });
-});
-document.addEventListener("DOMContentLoaded", function () {
-  const products = document.querySelectorAll(".product-space");
-
-  products.forEach(product => {
-    const defaultImg = product.querySelector(".default-img");
-    const hoverImg = product.querySelector(".hover-img");
-    });
 });
 
 
