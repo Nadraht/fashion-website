@@ -89,13 +89,21 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const faqItems = document.querySelectorAll(".faq");
+  const faqs = document.querySelectorAll(".faq");
 
-  faqItems.forEach(item => {
-    const question = item.querySelector(".question");
+  faqs.forEach((faq) => {
+    const question = faq.querySelector(".question");
+    const icon = faq.querySelector(".dropdown-icon");
 
     question.addEventListener("click", () => {
-      item.classList.toggle("open");
+      faq.classList.toggle("open");
+
+      // Toggle icon text
+      if (faq.classList.contains("open")) {
+        icon.textContent = "▲"; 
+      } else {
+        icon.textContent = "▼"; 
+      }
     });
   });
 });
