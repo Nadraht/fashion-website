@@ -208,7 +208,10 @@ marquee {
   text-decoration: none;
 }
 
-
+.featured>p{
+  text-align:center; 
+  margin-top:20px;
+}
 
 .featured a {
   display: inline-block;
