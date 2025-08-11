@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
 
   // Set event date and time (YYYY-MM-DDTHH:MM:SS)
-  const eventDate = new Date("2025-08-02T14:00:00").getTime();
+  const eventDate = new Date("2025-08-16T14:00:00").getTime();
 
   const timer = document.getElementById("timer");
   if(timer ===null){
