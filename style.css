@@ -99,13 +99,13 @@ marquee {
 
 .hero_text {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 5%;
   transform: translate(0, 0);
   color: white;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 30px;
+  padding: 5px 20px;
   border-radius: 10px;
   max-width: 500px;
   width: 90%;
